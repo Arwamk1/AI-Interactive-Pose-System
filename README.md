@@ -67,4 +67,3 @@ python main.py
 - **Resolution**: Change `cap.set(3, width)` and `cap.set(4, height)` in `main.py`.
 
 ---
-*Created for the WOW Project.*
