@@ -1,4 +1,4 @@
-# AI Pose Interaction Demo (WOW Project) 🌟
+# AI Pose Interaction Demo
 
 An interactive installation system that transforms body movements into visual art using **Computer Vision** and **AI**.
 Built with Python, OpenCV, and MediaPipe.
@@ -7,7 +7,7 @@ Built with Python, OpenCV, and MediaPipe.
 ![OpenCV](https://img.shields.io/badge/OpenCV-Computer%20Vision-green)
 ![MediaPipe](https://img.shields.io/badge/MediaPipe-Pose%20Estimation-orange)
 
-## 🎥 Features
+##  Features
 
 - **Real-time Pose Detection**: Tracks 33 body landmarks with high precision.
 - **Interactive Visuals**:
@@ -17,11 +17,11 @@ Built with Python, OpenCV, and MediaPipe.
 - **Mirror Effect**: Acts like a smart mirror for intuitive interaction.
 - **Performance Optimized**: Runs smoothly on standard CPUs.
 
-## 🚀 Installation
+##  Installation
 
 1.  **Clone the repository** (if you haven't already):
     ```bash
-    git clone https://github.com/yourusername/AI-Interactive-Pose-System.git
+    git clone https://github.com/Arwamk1/AI-Interactive-Pose-System.git
     cd AI-Interactive-Pose-System
     ```
 
@@ -30,7 +30,7 @@ Built with Python, OpenCV, and MediaPipe.
     pip install -r requirements.txt
     ```
 
-## 🎮 How to Run
+##  How to Run
 
 Simply run the `run.bat` file or execute the python script:
 
@@ -38,7 +38,7 @@ Simply run the `run.bat` file or execute the python script:
 python main.py
 ```
 
-## 🕹️ Controls & Interactions
+##  Controls & Interactions
 
 | Action | Effect |
 | :--- | :--- |
@@ -48,7 +48,7 @@ python main.py
 | **Move Hands** | Neon trails and particles follow your movement ✨ |
 | **Press 'q'** | Exit the application |
 
-## 📂 Project Structure
+##  Project Structure
 
 ```
 ├── main.py                 # Entry point of the application
@@ -60,7 +60,7 @@ python main.py
 └── README.md               # Documentation
 ```
 
-## 🛠️ Customization
+##  Customization
 
 - **Adjust Sensitivity**: Modify `detection_con` and `track_con` in `src/pose_detector.py`.
 - **Change Colors**: Edit the RGB values in `src/visual_effects.py`.
